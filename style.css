@@ -91,6 +91,7 @@ a:active{
     background-color: black;
     font-style:italic;
 }
+
 .post-image{
     width: 100%;
     height:auto;
@@ -107,12 +108,27 @@ nav a:link{
 }
 nav a:link:last-child{
     margin-right:0;
-    position:relative;
+
 }
 
-
-
-
+h2::first-letter{
+    font-size: 50px;
+}
+h2{
+    position: relative;
+}
+h2::after{
+    content:"TOP";
+    background-color:#efff11;
+    color:#444;
+    font-size: 16px;
+    font-weight: bold;
+    display:inline-block;
+    padding:5px 10px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
 
 
 
