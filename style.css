@@ -111,6 +111,7 @@ nav a:link:last-child{
 
 }
 
+
 h2::first-letter{
     font-size: 50px;
 }
@@ -129,9 +130,28 @@ h2::after{
     right: 0;
     top:0;
 }
-
-
-
+.author-img{
+    float:left;
+    margin-bottom: 10px;
+}
+.author{
+    padding-left: 70px;
+    margin-bottom: 10px;
+}
+nav{
+    float:right;
+}
+h1{
+    float:left;
+}
+/*.clear{
+    clear:both;
+}*/
+.clear-fix::after{
+    content: "";
+    clear:both;
+    display:block;
+}
 
 
 
